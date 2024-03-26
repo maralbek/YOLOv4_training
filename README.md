@@ -63,7 +63,7 @@
         ```
     ![Dataset Structure](screenshots/annotation_format.png)
 
-## Download Pretrained Model and Configuration
+## 4. Download Pretrained Model and Configuration
 
 4. **Download Pretrained Model and Configuration:**
     - Download the model:
@@ -78,7 +78,7 @@
       ![screenshot](screenshots/YOLOv4_size.png)
 
     
-## Training the Model
+## 5. Training the Model
 
 5. **Train the Model:**
     - Start training:
@@ -92,4 +92,10 @@
     - Refer to [tips](https://haobin-tan.netlify.app/ai/computer-vision/object-detection/yolov4-training-tips/) for helpful insights during training.
 
 6. **Testing the Model**
+- Test the model using the following command
+     ```bash
+     ./darknet detector map cfg/coco.data cfg/yolov4.cfg weights/yolov4.weights
+
+     ```
 7. **Convert to TF2 Model**
+   - Refer to this [GitHub repo](https://github.com/SoloSynth1/tensorflow-yolov4) to convert YOLOv4 weights to TF2 checkpoints
