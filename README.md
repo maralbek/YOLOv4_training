@@ -61,7 +61,7 @@
         ```
         <object-class> <x_center> <y_center> <width> <height>
         ```
-    ![Dataset Structure](https://prod-files-secure.s3.us-west-2.amazonaws.com/96f8a452-7206-4cb0-94b8-7fb06cb53922/a32f5f51-f712-469d-a6c5-85abbff43df5/Untitled.png)
+    ![Dataset Structure](screenshots/annotation_format.png)
 
 ## Download Pretrained Model and Configuration
 
